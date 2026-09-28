@@ -1,0 +1,3 @@
+games.csv
+*.csv
+!top_10_generos_steam.csv
