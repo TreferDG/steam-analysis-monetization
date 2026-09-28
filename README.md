@@ -48,7 +48,7 @@ A pipeline trata dados nulos, desmembra gêneros híbridos e remove categorias u
 
 3. Execute o script Python:
 
-    python Projeto.py
+    Projeto.py
 
 ## ✉️ Contato
 Desenvolvido por Danilo
