@@ -54,4 +54,4 @@ A pipeline trata dados nulos, desmembra gêneros híbridos e remove categorias u
 Desenvolvido por Danilo
 
 * **LinkedIn:** [Danilo Guerreiro](https://www.linkedin.com/in/danilo-guerreiro-66a35737a)
-* **GitHub:** [Perfil do TreferDG](https://github.com/TreferDG)
+* **GitHub:** [Danilo Guerreiro](https://github.com/TreferDG)
