@@ -37,7 +37,7 @@ top_generos = df_apenas_jogos.groupby('Genero_Lista').agg(
     Tempo_Medio_Minuto=('Average playtime forever', 'mean'),
     Total_Positivas=('Positive', 'sum'),
     Total_Avaliacoes=('Total_Avaliacoes', 'sum')
-)
+).reset_index()
 
 # 6. Conversões, Arredondamentos e Seleção do Top 10
 top_generos['Taxa_Aprovacao_Pct'] = (top_generos['Total_Positivas'] / top_generos['Total_Avaliacoes']) * 100
