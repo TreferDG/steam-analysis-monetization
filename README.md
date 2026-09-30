@@ -74,7 +74,7 @@ O dashboard compara **popularidade** (total de avaliações) e **engajamento** (
 ```
 
 ## ✉️ Contato
-Desenvolvido por Danilo
+Desenvolvido por Danilo Rodrigues Guerreiro
 
 * **LinkedIn:** [Danilo Guerreiro](https://www.linkedin.com/in/danilo-guerreiro-66a35737a)
 * **GitHub:** [Danilo Guerreiro](https://github.com/TreferDG)
