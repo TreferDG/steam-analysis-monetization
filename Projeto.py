@@ -39,6 +39,9 @@ top_generos = df_apenas_jogos.groupby('Genero_Lista').agg(
     Total_Avaliacoes=('Total_Avaliacoes', 'sum')
 ).reset_index()
 
+# 5.1 Filtro de relevância estatística (mínimo de 50 jogos por gênero)
+top_generos = top_generos[top_generos['Qtd_Jogos'] >= 50]
+
 # 6. Conversões, Arredondamentos e Seleção do Top 10
 top_generos['Taxa_Aprovacao_Pct'] = (top_generos['Total_Positivas'] / top_generos['Total_Avaliacoes']) * 100
 top_generos['Taxa_Aprovacao_Pct'] = top_generos['Taxa_Aprovacao_Pct'].round(2)
